@@ -1,0 +1,34 @@
+.table-heading {
+    color: white;
+}
+
+.body {
+
+    background-color: aqua;
+}
+
+@media (min-width: 600px ) {
+    .table-heading {
+        color: yellow;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        background-color: lightsalmon !important;
+    }
+}
+
+
+.adobe-img {
+    padding-top: 30px;
+}
+
+
+a.text-title {
+font-weight: lighter;
+}
+
+a.text-title-ads {
+    font-size: x-small;
+}
