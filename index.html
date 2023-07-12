@@ -3,73 +3,237 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- Compiled and minified CSS -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <title>CWD_B2</title>
-    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="idea.css">
+    <link rel="stylesheet" href="ideal.css">
+    <link rel="stylesheet" href="ideal1.css">
+    <title>Home</title>
 </head>
-<body class="blue-grey">
+<body class="background">
     <div class="navbar-fixed">
-        <nav class="blue">
+        <nav class="orange accent-3">
+            <img src="images/logo.png" alt="" class="hello">
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="" class="brand-logo">Vivid</a>
+                    <a href="index.html" class="brand-logo black-text">Brasserie</a>
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i>
+                    </a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li class="active"><a href="navbar-sidenav.html">Home</a>
+                        <li class="active">
+                        <a href="index.html" class="black-text">HOME</a>
                         </li>
-                        <li><a href="index.html">About</a>
+                        <li><a href="aboutus.html" class="black-text">ABOUT US</a>
                         </li>
-                        <li><a href="https://materializecss.com/scrollspy.html" target="_blank">Contact Us</a>
+                        <li><a href="menu.html" target="_blank" class="black-text">MENU</a>
                         </li>
-    
+                        <li><a href="contactus.html" class="black-text">CONTACT US</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
+      
+        
     </div>
-    
-    <div class="container">
-        <h1 class="black-text">Creative Web Design(Batch 2)</h1>
 
-        <div class="card-panel blue darken-2 white-text">
-           <h5>THIS IS CREATIVE WEB DESIGN TESDA PROGRAM</h5>
-           <h6>Trainor: Mr. Bobby Ferrer</h6>
-           <p>Address: City of Santa Rosa,Laguna </p>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni esse consequatur recusandae deleniti, illum similique quo! Beatae recusandae reiciendis magnam cumque quis quae facilis, voluptate magni. Perferendis rerum enim error!</p>
+     <!-- Sidenav Structure -->
+     <ul id="slide-out" class="sidenav">
+        <li>
+        <div class="user-view">
+            <div class="background">
+                <img src="images/bg2.jpg">
+            </div>
+            <a href="">
+                <img src="images/logo.png" alt="" class="circle">
+            </a>
+            <a href="">
+                <span class="white-text name">Brasserie Coffeeshop</span>
+            </a>
+           
         </div>
-        <button class="btn indigo"> << BACK</button>
-        <button class="btn indigo">NEXT >></button>
+    </li>
+    <li class="active">
+        <a href="index.html">HOME</a>
+        </li>
+        <li><a href="aboutus.html">ABOUT US</a>
+        </li>
+        <li><a href="menu.html" target="_blank">MENU</a>
+        </li>
+        <li><a href="contactus.html">CONTACT US</a>
+        </li>
+    </ul>
+    
+        <div class="slider">
+                    <ul class="slides">
+                    <li>
+                        <img src="images/slider1.jpg" alt="">
+                        
+                    </li>
+                    <li>
+                        <img src="images/slider2.jpg" alt="">
+                        <div class="caption left-align">
+                            <h3>Caramel Macchiato</h3>
+                            <h5 class="black-text">The Best Coffee in Town</h5>
+                            </h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/slider3.jpg" alt="">
+                        <div class="caption right-align">
+                            <h3>Our Dining</h3>
+                            <h5 class="white-text">Where memories are made.</h5>
+                        </div>
+                                </li>
+                                <li>
+                                <img src="images/slider4.jpg" alt="">
+                                <div class="caption center-align">
+                                <h3>Latte Art</h3>
+                                <h5 class="white-text">Choose your favorite latte art, and we will make it for you.</h5>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/slider5.jpg" alt="" class="img5">
+                                <div class="caption right-align">
+                                    <h3>Iced Latte</h3>
+                                    <h5 class="white-text">Where hardness and softness meet.</h5>
+                                    </div>
+                                
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            <div class="box">
+                <div class="container">
+                    <div class="row">
+            
+                            <br>
+                            <h2 class="header center white-text">About the Cafe</h2>
+                            <p class="center white-text"> There once was a young man who dreamed to have a cafe where they can share to their customers about the Lord Jesus. And these dream became possible through the help of his friends who also had the same idea he as had.
+                            </p>
+    
+                        <p class="center white-text">Now, the cafe has served more than a million of customers together with its branches worlwide. And its mission continues.</p>
+                        
+
+                
+                    
+                
+            
+                    </div>
+                </div>
+            </div>
+        <div>
+
+
+            <div class="coffee">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h1>Our <span>Coffee</span></h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nemo odit molestias nulla ducimus sed nihil consequatur porro repudiandae iusto illo blanditiis.</p>
+                    <button type="button" onclick="location.href='menu.html'">Go to Menu</button>
+                </div>
+            
+            </div>
+            
+<div class="store-container">
+
+    <div class="box">
+    <h3>In Store Purchase</h3>
+    <p>Order online and get the order in our cafe.
+    </p>
+    <a href="contactus.html" target="_blank" class="btn">CONTACT US</a>
+    <br>
+    <a href="https://www.waze.com/live-map/" target="_blank" class="btn">Pick Up Order</a>
+    </div>
+</div>
+
+<div class="shop-container">
+    <h1 class="heading">ORDER ONLINE</h1>
+    <div class="box-container">
+
+        <div class="box">
+        <img src="images/foodpanda.png" alt="">
+        <h3>FOODPANDA</h3>
+        <p>
+        You can order through Foodpanda App</p>
+        <a href="https://www.foodpanda.ph/?gclid=Cj0KCQjwnrmlBhDHARIsADJ5b_k9VjKoJ5xmcRQn4nHcLbwg_aL_2CnL4slD8t5IIgCFO5DGVUQTx2QaAgE0EALw_wcB"target="_blank" class="btn">OPEN</a>
+        </div>
+
+        <div class="box">
+        <img src="images/grab.png" alt="">
+        <h3>GRAB FOOD</h3>
+        <p>You can order through Grab Food App</p>
+        <a href="https://food.grab.com/ph/en/?gclid=Cj0KCQjwnrmlBhDHARIsADJ5b_kqvp8FyS7xSVS1uxFGwjHBpS9FFGZRqEV0qxc8T9IB1OfWuLXvXL4aAtIqEALw_wcB&gclsrc=aw.ds" target="_blank" class="btn">OPEN</a>
+        </div>
+
+        <div class="box">
+                <img src="images/lalamove.png" alt="">
+                <h3>LALAMOVE</h3>
+                <p>
+                You can order through Lalamove App</p>
+                <a href="https://www.lalamove.com/en-ph/" target="_blank" class="btn">OPEN</a>
+                </div>
+
+    </div>
+
+    
+</div>
+
+    
+
+    
+    
+  
       
 
-        <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora enim doloribus necessitatibus consequuntur sunt iste eveniet officiis ratione recusandae fugiat!</p>
-
-        <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga adipisci dicta commodi! Ratione minus explicabo necessitatibus sint tenetur excepturi obcaecati porro. Amet, recusandae dolorem delectus aut perspiciatis natus deserunt nesciunt veniam est odit, dicta reiciendis magni beatae porro ipsam esse possimus animi, suscipit temporibus repellat eos eveniet? Aut, temporibus aliquid.</p>
-
-        <h1 class="amber-text">Creative Web Design(Batch 2)</h1>
 
 
-        <div class="card-panel light-blue  white-text">
-            <h5>THIS IS CREATIVE  WEB DESIGN TESDA PROGRAM</h5>
-            <h6>Trainor: Mr. Bobby Ferrer</h6>
-            <p>Address: City of Binan, Laguna </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni esse consequatur recusandae deleniti, illum similique quo! Beatae recusandae reiciendis magnam cumque quis quae facilis, voluptate magni. Perferendis rerum enim error!</p>
-        </div>
-        <button class="btn cyan"> << BACK</button>
-            <button class="btn cyan">NEXT >></button>
-           
 
 
-        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus labore adipisci sapiente aspernatur in. Molestiae, vitae aspernatur rem harum quibusdam inventore, sint consectetur suscipit fugiat quia officiis laboriosam minima laborum.</blockquote>
 
-        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, commodi provident! Corrupti architecto voluptates laborum totam molestias dignissimos impedit fugit optio, culpa velit provident perspiciatis eveniet dolorum neque ipsum soluta, laudantium autem blanditiis vel corporis saepe possimus qui nisi? Provident iusto totam blanditiis, aliquam dolore commodi laborum accusamus quia, est voluptatum voluptate mollitia. Quo suscipit modi iusto accusamus soluta dolore in, nobis autem esse obcaecati debitis corrupti veritatis explicabo quaerat ratione sed omnis itaque quis necessitatibus et. Quae odio nobis consequuntur, est debitis numquam dolor velit optio atque neque! Quod temporibus doloremque fugit numquam dolore laboriosam ea quisquam ipsam laborum.</blockquote>
 
-         
-         
-        
-        </div>
-    
+
+
+
+
+
+ <!-- Jquery CDN -->
+ <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script> 
 
  <!-- Compiled and minified JavaScript -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+ </script>
+
+
+
+<script>
+    $(document).ready(function () {
+    
+        // Slider Init
+        $('.slider').slider({
+            indicators: false,
+            height: 400,
+            interval: 3000,
+            
+        })
+        // Sidenav Init
+        $('.sidenav').sidenav({
+        edge: 'right',
+        inDuration: 500,
+        outDuration: 500,
+        draggable: true,
+        preventScrolling: false,
+    })
+    })
+
+
+</script>
 </body>
 </html>

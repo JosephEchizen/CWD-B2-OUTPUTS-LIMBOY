@@ -1,0 +1,45 @@
+
+.hello{
+position: fixed;
+height: auto;
+right: 10px;
+width: 50px;
+padding-top: 10px;
+}
+
+.slider{
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.brand-logo{
+    font-family:  "Sofia", sans-serif;
+    left: -150px;
+}
+
+.site-header{
+background-image: url(images/about1.jpg);
+background-position: bottom;
+background-size: cover;
+padding: 5rem;
+min-height: 70vh;
+position: relative;
+}
+.site-header-mask{
+    position: absolute;
+    inset: 0;
+
+
+}
+.site-title{
+    text-align: center;
+    font-size: clamp(4rem, 10vw + 0.5rem, 9rem);
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 100%;
+}
+.section-title{
+    font-weight: 200;
+}
